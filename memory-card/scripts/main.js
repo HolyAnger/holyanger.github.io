@@ -1,17 +1,10 @@
-window.addEventListener('load', () => {
-  window.setTimeout(() => {
-    const DEFAULT_HEIGHT = 720
-    const DEFAULT_WIDTH = (window.innerWidth / window.innerHeight) * DEFAULT_HEIGHT
-
     const config = {
       scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
-        width: DEFAULT_WIDTH,
-        height: DEFAULT_HEIGHT,
+        width: 1200,
+        height: 700,
         scene: new GameScene(),
       },
     }
     new Phaser.Game(config)
-  }, 1000)
-});
