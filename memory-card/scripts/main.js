@@ -1,8 +1,7 @@
-const config = {
-  type: Phaser.AUTO,
-  width: 1280,
-  height: 720,
-  scene: new GameScene(),
-};
-
-const game = new Phaser.Game(config);
+    const config = {
+        width: 1200,
+        height: 700,
+        type: Phaser.AUTO,
+        scene: new GameScene(),
+    }
+    new Phaser.Game(config)
