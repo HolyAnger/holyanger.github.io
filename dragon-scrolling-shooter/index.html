@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Side Scroller Shooter Game</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        @font-face {
+            font-family: 'CurseCasual';
+            src: url('assets/fonts/CurseCasual.ttf');
+        }
+        .fontPreload {
+            font-family: 'CurseCasual';
+            position: absolute;
+            left: -100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fontPreload">.</div>
+    <script src="js/libs/phaser.min.js"></script>
+    <script src="js/classes/LoadingBar.js"></script>
+    <script src="js/objects/MovableObject.js"></script>
+    <script src="js/objects/Boom.js"></script>
+    <script src="js/objects/Fire.js"></script>
+    <script src="js/objects/Enemy.js"></script>
+    <script src="js/objects/Player.js"></script>
+    <script src="js/objects/Fires.js"></script>
+    <script src="js/objects/Enemies.js"></script>
+    <script src="js/scenes/BootScene.js"></script>
+    <script src="js/scenes/PreloadScene.js"></script>
+    <script src="js/scenes/StartScene.js"></script>
+    <script src="js/scenes/GameScene.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
